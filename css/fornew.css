@@ -1,0 +1,13 @@
+.ttt{
+    font-size: 500px;
+    /* visibility: ; */
+}
+
+.error{
+    visibility: visible;
+    color: red;
+}
+
+.corr{
+    visibility: hidden;
+}

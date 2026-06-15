@@ -1,0 +1,192 @@
+*{
+padding: 0px;
+margin: 0%;
+box-sizing: border-box;
+
+}
+body{
+    /* height: 100vh;
+     height: 100vh; */
+  background: linear-gradient(to bottom, #4b0c01 4%, #4b1a04 4%, #000000 4%, #000000 100%)
+
+}
+/* .top{
+    background-color: rgba(117, 11, 11, 0.836);
+    height:60px;
+    width: 100%;
+   
+   
+}
+.bottom{
+    background-color: black;
+   height: 640px;
+   width: 100%;
+    
+} */
+.links div{
+    display: flex;
+    padding: 0px 70px;
+    gap: 0px 90px;
+    margin: 0px 0px ;
+
+
+}
+.links a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+.links  div{
+    color: aliceblue;
+    font-size: 20px;
+    display: flex;
+    padding: 10px 100PX;
+    gap: 10px 50px;
+}
+.links h2{
+    padding: 0px 200px;
+    gap: 0px 100px;
+    font-size:20px ;
+    
+}
+
+.first {
+    display: flex;
+    gap: 10px 0px;
+    justify-content: center;
+    margin: 20px 20px;
+   
+
+}
+
+.hot img{
+    border-radius: 7% ;
+    box-sizing: 20px 20px;
+    top: 20px;
+    bottom: 20px;
+    height: 300px;
+    width: 300px;
+     object-fit: cover;
+     padding: 40px 0px;
+     margin: 0px 100px;
+
+}
+.cold img{
+    border-radius: 7% ;
+    box-sizing: 20px 20px;
+    top: 20px;
+    bottom: 20px;
+    gap: 100px ;
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+    padding: 40px 0px;
+    margin: 0px 100px;
+}
+.refe img{
+    border-radius: 7% ;
+    box-sizing: 20px 20px;
+    top: 20px;
+    bottom: 20px;
+    gap: 100px ;
+    height: 300px;
+    width: 150px;
+    object-fit: cover;
+    padding: 40px 0px;
+    margin: 0px 100px;
+}
+
+
+.hot h2{
+    color: aliceblue;
+    text-align: center;
+}
+.hot p{
+    color: aliceblue;
+    text-align: center;
+}
+.refe h2{
+    color: aliceblue;
+    text-align: center;
+}
+.refe p{
+    color: aliceblue;
+    text-align: center;
+}
+.cold h2{
+    color: aliceblue;
+    text-align: center;
+}
+.cold p{
+    color: aliceblue;
+    text-align: center;
+}
+.sec{
+    display: flex;
+    gap: 10px 0px;
+    justify-content: center;
+    margin: 20px 20px;
+    padding: 10px 20px;
+}
+.specialcombos img{
+    border-radius: 7% ;
+    box-sizing: 20px 20px;
+    top: 20px;
+    bottom: 20px;
+    gap: 100px ;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    padding: 40px 0px;
+    margin: 0px 100px;
+}
+.burger-fries img{
+      border-radius: 7% ;
+    box-sizing: 20px 20px;
+    top: 20px;
+    bottom: 20px;
+    gap: 100px ;
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+    padding: 40px 0px;
+    margin: 0px 100px;
+}
+.dessert img{
+     border-radius: 7% ;
+    box-sizing: 20px 20px;
+    top: 20px;
+    bottom: 20px;
+    gap: 100px ;
+    height: 400px;
+    width: 200px;
+    object-fit: cover;
+    padding: 40px 0px;
+    margin: 0px 100px;
+}
+
+.specialcombos h2{
+    color: aliceblue;
+    text-align: center;
+}
+.specialcombos p{
+    color: aliceblue;
+    text-align: center;
+}
+.dessert h2{
+    color: aliceblue;
+    text-align: center;
+}
+.dessert p{
+    color: aliceblue;
+    text-align: center;
+}
+.burger-fries h2{
+    color: aliceblue;
+    text-align: center;
+}
+.burger-fries p{
+    color: aliceblue;
+    text-align: center;
+}

@@ -1,0 +1,88 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+   background: linear-gradient(to bottom, #4b0c01 8%, #4b1a04 8%, #000000 8%, #000000 100%);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   
+   
+}
+.link{
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px;
+    gap: 100px;
+}
+.link h2{
+    gap: 400px;
+    margin: 0px 90px;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.link a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+.bg img{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #640606;
+    padding: 3px;
+    margin: 40px 10px;
+    gap: 200px;
+}
+.write {
+    display: flex;
+    /* justify-content: center; */
+    padding: 0px 0px;
+    margin: 10px 10px;
+    gap: 200px;
+    
+}
+
+.part  {
+    
+    padding: 10px 0px;
+    margin: 10px 0px;
+    
+    
+}
+.image img{
+    padding: 40px 30px ;
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border: 3px solid #640606;
+    padding: 3px;
+    border-radius: 50%;
+}
+.image{
+    display: flex;
+    justify-content: center;
+     margin: 40px 40px;
+     gap: 20px;
+   
+}
+
+
+.part h1{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 40px 40px;
+    color: aliceblue;
+}
+.part p{
+    color: aliceblue;
+    font-size: 20px;
+}

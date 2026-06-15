@@ -1,0 +1,100 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+body{
+    background: linear-gradient(to bottom,#420404 6% ,#420404 6% ,#ffffff 6%,#ffffff 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150vh;
+    width: 150vh;
+}
+.link{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+
+}
+.coffe{
+    display: flex;
+    justify-content: center;
+    padding: 0px 10px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.link{
+    display: flex;
+    justify-content: center;
+}
+.link a{
+    padding: 70px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 22px;
+    /* justify-content: center;
+    display: flex; */
+}
+.link h1{
+    color: rgb(0, 0, 0);
+    font-size: 5px;
+    padding: 30px;
+
+}
+.whole {
+    display: flex;
+    /* justify-content: center; */
+    gap: 400px;
+    margin: 70px 60px;
+    padding: 30px 30px;
+
+}
+
+
+.cont img{
+    width: 40px;
+    height: 40px;
+    /* padding: 10px 10px; */
+}
+.cont p{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    gap: 20px;
+    display: flex;
+     padding: 5px 0px;
+    
+}
+.cont a{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.input input{
+    padding: 15px 200px;
+    background-color: rgb(255, 255, 255);
+    color: #ffffff;
+    font-size: 20px;
+    gap: 10px;
+    margin: 20px;
+    text-align: center;
+    
+}
+.input textarea{
+    padding: 30px 90px;
+    background-color: rgb(255, 255, 255);
+    color: #420404;
+    font-size: 20px;
+    gap: 10px;
+    margin: 20px;
+    
+}
+.input button{
+    padding: 7px 40px;
+    background-color: rgb(70, 3, 3);
+    color: #ffffff;
+    font-size: 15px;
+    border-radius: 30px;
+    margin: 20px 40px;
+    
+}
+

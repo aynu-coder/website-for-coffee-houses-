@@ -1,0 +1,93 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+     background-color: rgba(88, 3, 3, 0.932); 
+}
+.bag{
+    background-image:url(photo/removed\ coffee\ cup.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    box-sizing: content-box; 
+   
+    /* z-index: -10; */
+}
+.whole{
+    display: flex;
+    gap: 100px;
+}
+
+.logo {
+display: flex;
+/* justify-content: center; */
+padding: 0px 0px;
+margin: 0px 0px;
+
+   
+}
+
+.logo img{
+    padding: 0px 0px;
+    width: 150px;
+    height: 90px;
+}
+
+
+.link  {
+display: flex;
+padding: 10px 0px;
+margin: 6px 20px;
+font-weight: bold;
+
+}
+.link a{
+    padding: 0px 20px;
+    font-size: 22px;
+    text-decoration: none;
+    color: aliceblue;
+
+}
+.link a :hover{
+    color: blue;
+   
+}
+.dis{
+    padding: 100px 0px;
+    display: flex;
+    
+    gap: 50px 0px
+    
+}
+.dis p{
+    font-size: 50px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: rgb(253, 146, 5);
+}
+.dis h1{
+    color: rgb(212, 217, 221);
+}
+.dis h2{
+    font-size: 17px;
+    padding: 20px 20px;
+}
+.dis img{
+    width: 350px;
+    height: 370px;
+    object-fit: cover;
+}
+.dis button{
+    padding: 10px 40px ;
+    margin: 10px 10px ;
+    border-radius: 20px 20px;
+    background-color: rgb(247, 122, 6);
+    color: aliceblue;
+    text-decoration: none;
+   
+}
+.dis button :hover{
+    color: blue;
+}
